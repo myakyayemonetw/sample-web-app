@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class DatabaseConnection {
 
     // JDBC connection details (replace with your own DB info)
-    private static final String URL = "jdbc:mysql://localhost:3306/your_database_name";
-    private static final String USER = "your_db_user";
-    private static final String PASSWORD = "your_db_password";
+    private static final String URL = "jdbc:mysql://localhost:3306/yourdb-name";
+    private static final String USER = "your-user";
+    private static final String PASSWORD = "your-password";
 
     // JDBC connection method
     public static Connection getConnection() throws SQLException {
@@ -36,4 +36,4 @@ public class DatabaseConnection {
         }
     }
 }
-            
+
