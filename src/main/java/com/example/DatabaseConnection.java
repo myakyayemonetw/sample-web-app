@@ -32,4 +32,8 @@ public class DatabaseConnection {
                 System.out.println("Database connection successful!");
             }
         } catch (SQLException e) {
+            System.out.println("Database connection failed: " + e.getMessage());
+        }
+    }
+}
             
